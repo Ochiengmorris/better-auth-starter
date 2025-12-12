@@ -24,7 +24,7 @@ Before you begin, ensure you have the following installed:
 ### 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Ochiengmorris/better-auth-starter.git
 cd better-auth-starter
 ```
 
@@ -40,7 +40,7 @@ pnpm install
 
 ### 3. Set up environment variables
 
-Create a `.env` file in the root directory:
+Create a `.env.local` file in the root directory:
 
 ```env
 # Database
@@ -124,8 +124,8 @@ The starter includes a basic user schema with Drizzle ORM. You can find and modi
 ### Adding OAuth Providers
 
 1. Add provider credentials to `.env.local`
-2. Configure the provider in your Better Auth configuration
-3. Add the provider button to your login page
+2. Configure the provider in your Better Auth configuration (Already done for you)
+3. Add the provider button to your login page (Already done for you)
 
 ### Setting Up Google OAuth
 
@@ -180,7 +180,7 @@ npm run db:push
 
 ### Styling
 
-This starter uses Tailwind CSS. Customize your design by modifying `tailwind.config.ts` and component styles.
+This starter uses Tailwind CSS. Customize your design by modifying `app/global.css` and component styles.
 
 ## Deployment
 
